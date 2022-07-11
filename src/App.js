@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Activity from './components/Activities/Detail-page';
 import Hosting from './components/Hosting/Detail-page';
 import Popular from './components/Popular/Detail-page';
+import Error404 from './components/Error';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="activity/:id" element={<Activity />} />
         <Route path="hosting/:id" element={<Hosting />} />
         <Route path="popular/:id" element={<Popular />} />
+        <Route path="*" element={<Error404 />} />
       </Route>
     </Routes>
     </>
