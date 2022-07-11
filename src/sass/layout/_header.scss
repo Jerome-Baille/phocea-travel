@@ -1,0 +1,77 @@
+.logo-title {
+    font-family: 'Rancho', cursive;
+    color: $primary-color;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 50%; 
+        margin-top: 30px;
+    }
+
+    nav  {
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+        a { 
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-top: 40px;
+            font-weight: 600;
+            margin: 0 35px;
+
+            &:hover {
+                color: $primary-color;
+                border-top: 2px solid $primary-color;
+                padding-top: 38px;
+            } 
+        }
+    }
+}
+
+
+/* Header changes for the mobile version (the tablet version being the same as desktop) */
+@include mobile {
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 80%;
+            padding-left: 70px;
+        }
+
+        nav {
+            width: 100%;
+    
+            li {
+                width: 100%;
+            }
+            a {
+                margin: 0;
+                padding-bottom: 20px;
+                border-top: none;
+                border-bottom: 4px solid $background-color;
+    
+                &:hover {
+                    border-top: none;
+                    border-bottom: 4px solid $primary-color;
+                    padding-bottom: 20px;
+                    padding-top: 40px;
+                } 
+            }
+        }
+    }
+
+
+}

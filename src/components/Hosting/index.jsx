@@ -1,6 +1,8 @@
 import { HashLink as Link } from 'react-router-hash-link';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+
 import data from '../../assets/data.json';
 import Popular from '../Popular';
 

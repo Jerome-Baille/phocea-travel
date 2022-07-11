@@ -1,0 +1,150 @@
+.page-container {
+    padding: 0 40px 40px 40px;
+    margin-bottom: 20px;
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    img {
+        width: 100%;
+        height: calc( 100% - 50px );
+        object-fit: cover;
+    }
+    figcaption {
+        height: 50px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.error-text-container {
+    p {
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
+}
+
+.activity-container {
+    display: grid;
+    grid-gap: 40px;
+    grid-auto-rows: minmax(auto, 250px);
+}
+
+.hosting-container, .popular-card-container {
+    display: grid;
+    grid-gap: 30px;
+
+    .img-container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 5px;
+        background-color: $white;
+
+        img {
+            object-fit: cover;
+        }
+        figcaption {
+            height: 90px;
+            line-height: inherit;
+            text-align: start;
+            font-weight: inherit;
+
+            h3, p {
+                margin: 0;
+            }
+            h3 {
+                font-size: 1em;
+            }
+            p {
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+            }
+        }
+    }
+}
+
+.booking-container {
+    background: $background-color;
+    border-radius: 20px;
+    padding: 20px 40px;
+
+    .hosting-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(auto, 250px);
+
+        .img-container {
+            img {
+                width: 100%;
+                height: calc( 100% - 90px );
+                border-radius: 20px 20px 0 0;
+            }
+            figcaption {
+                padding: 5px 10px 0 10px;
+            }
+        }
+    }
+}
+
+.popular-container {
+    background: $background-color;
+    border-radius: 20px;
+    padding: 20px 40px;
+
+    header {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    .popular-card-container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(auto, 200px);
+    
+        .img-container {
+            display: flex;
+            position: relative;
+    
+            img {
+                max-width: 200px;
+                height: 100%;
+                border-radius: 20px 0 0 20px;
+            }
+            figcaption {
+                padding: 20px;
+            }
+        }
+    }
+}
+
+
+@include mobile {
+    .page-container {
+        padding: 0;
+    }
+    
+    .booking-container{
+        background: $white;
+    } 
+
+    .popular-container {
+        border-radius: 0;
+        padding-bottom: 50px;
+    }
+}
+
+@include medium {
+    .booking-container{
+        background: $white;
+    } 
+}
+
+@include tablet {
+    .booking-container {
+        padding: 0;
+    }
+}

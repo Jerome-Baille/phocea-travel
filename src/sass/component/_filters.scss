@@ -1,0 +1,121 @@
+.filters-container { 
+    display: flex;
+    column-gap: 15px;
+    margin: 30px 0 20px 0;
+}
+
+.filtersSelection { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: space-between;
+}
+.filters {
+    display: flex;
+    align-items: center;
+
+    a {
+        display: flex;
+
+        &:hover {
+            .textFilter { 
+                background-color: $secondary-color;
+                border-top: 4px $secondary-color solid;
+                border-bottom: 4px $secondary-color solid;
+                border-right: 4px $secondary-color solid;
+            }
+            .wrapFilterIcon {
+                background-color: $background-color;
+            }
+        }
+    }
+}
+
+.wrapFilterIcon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-color;
+    color: $primary-color;
+    z-index: 1;
+}
+.textFilter {
+    display: flex;
+    align-items: center;
+    border-top: 4px $background-color solid;
+    border-bottom: 4px $background-color solid;
+    border-right: 4px $background-color solid;
+    padding: 9px 15px 9px 35px;
+    margin-left: -25px;
+    border-radius: 0 50px 50px 0;
+    font-weight: bold;
+}
+
+.infoWrapper { 
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.wrapInfoIcon {
+    height: 2rem;
+    width: 2rem;
+    border: $background-color 2px solid;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: $primary-color;
+    font-weight: bold;
+}
+
+@include mobile {
+    #search {
+        padding: 40px 20px;
+
+        form{
+            width: 100%;
+            margin-top: 15px;
+        }
+    }
+
+    .mapIconWrapper {
+        padding: 1.25rem;
+        border-radius: 20px 0 0 20px;
+        font-size: 1.25rem;
+    }
+    #citySearch {
+        width: 100%;
+
+        &::placeholder {
+            padding-left: 0;
+        }
+    }
+
+    input[type=search], #citySearch::placeholder {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        padding-right: 15px !important;
+        }
+
+    .searchButton {
+        border-radius: 15px;
+        font-size: 1.25rem;
+    }
+
+    .filters-container { 
+        display: block;
+    }
+    .wrapFilterIcon {
+        font-size: 1.25rem;
+    }
+}

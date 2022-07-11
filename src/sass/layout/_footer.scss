@@ -1,0 +1,36 @@
+footer {
+    background-color: $background-color;
+    width: 100%;
+    padding: 20px 40px 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+    .footer-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+}
+
+@include desktop {
+    footer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@include mobile {
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
