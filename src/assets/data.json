@@ -1,0 +1,230 @@
+{
+    "filters" : {
+        "1" : {
+            "name" : "Économique",
+            "url" : "#",
+            "icon" : "faMoneyBillWave"
+        },
+        "2" : {
+            "name" : "Familial",
+            "url" : "#",
+            "icon" : "faChildReaching"
+        },
+        "3" : {
+            "name" : "Romantique",
+            "url" : "#",
+            "icon" : "faHeart"
+        },
+        "4" : {
+            "name" : "Animaux autorisés",
+            "url" : "#",
+            "icon" : "faDog"
+        }
+    },
+    "activities": {
+            "Vieux-Port": {
+                "slug": "Vieux-Port",
+                "name": "Vieux Port",
+                "imgUrl": "./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg",
+                "imgAlt": "Vieux Port"
+            },
+            "Fort-de-Pomegues": {
+                "slug": "Fort-de-Pomegues",
+                "name": "Fort de Pomègues",
+                "imgUrl": "./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg",
+                "imgAlt": "Fort de Pomègues"
+            },
+            "Ile-du-Frioul": {
+                "slug": "Ile-du-Frioul",
+                "name": "Île du Frioul",
+                "imgUrl": "./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg",
+                "imgAlt": "Île du Frioul"
+            },
+            "Parc-National-des-Calanques": {
+                "slug": "Parc-National-des-Calanques",
+                "name": "Parc National des Calanques",
+                "imgUrl": "./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg",
+                "imgAlt": "Parc National des Calanques"
+            },
+            "Notre-Dame-de-la-Garde": {
+                "slug": "Notre-Dame-de-la-Garde",
+                "name": "Notre-Dame-de-la-Garde",
+                "imgUrl": "./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg",
+                "imgAlt": "Notre-Dame-de-la-Garde"
+            },
+            "Parc-Longchamp": {
+                "slug": "Parc-Longchamp",
+                "name": "Parc Longchamp",
+                "imgUrl": "./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg",
+                "imgAlt": "Parc Longchamp"
+            }
+    },
+    "bookings": {
+        "Auberge-La-Cannebiere": {
+            "slug": "Auberge-La-Cannebiere",
+            "name": "Auberge La Cannebière",
+            "imgUrl": "./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
+            "imgAlt": "Auberge la Cannebière - Chambre avec lit superposé",
+            "price": "25",
+            "rating": 4
+        },
+        "Hotel-du-port": {
+            "slug": "Hotel-du-port",
+            "name": "Hôtel du port",
+            "imgUrl": "./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg",
+            "imgAlt": "Hôtel du port - Chambre avec deux lits simples",
+            "price": "52",
+            "rating": 5
+        },
+        "Hotel-les-mouettes": {
+            "slug": "Hotel-les-mouettes",
+            "name": "Hôtel Les mouettes",
+            "imgUrl": "./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg",
+            "imgAlt": "Hôtel Les mouettes - Chambre avec deux lits simples",
+            "price": "76",
+            "rating": 4
+        },
+        "Hotel-de-la-mer": {
+            "slug": "Hotel-de-la-mer",
+            "name": "Hôtel de la mer",
+            "imgUrl": "./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg",
+            "imgAlt": "Hôtel de la mer - Chambre avec lit double",
+            "price": "46",
+            "rating": 3
+        },
+        "Auberge-le-panier": {
+            "slug": "Auberge-le-panier",
+            "name": "Auberge Le Panier",
+            "imgUrl": "./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
+            "imgAlt": "Auberge Le Panier - Chambre avec deux lits superposés",
+            "price": "23",
+            "rating": 4
+        },
+        "Hotel-chez-Amina": {
+            "slug": "Hotel-chez-Amina",
+            "name": "Hôtel chez Amina",
+            "imgUrl": "./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg",
+            "imgAlt": "Hôtel chez Amina - Chambre avec deux lits doubles",
+            "price": "96",
+            "rating": 5
+        }
+    },
+    "populars" : {
+        "Hotel-le-soleil-du-matin" : {
+            "slug": "Hotel-le-soleil-du-matin",
+            "name": "Hôtel Le soleil du matin",
+            "imgUrl": "./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg",
+            "imgAlt": "Hôtel Le soleil du matin - Chambre avec lit double",
+            "price": "128",
+            "rating": 5
+        },
+        "Au-coeur-de-l-eau-chambres-d-hotes" : {
+            "slug": "Au-coeur-de-l-eau-chambres-d-hotes",
+            "name": "Au coeur de l'eau Chambres d'hôtes",
+            "imgUrl": "./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg",
+            "imgAlt": "Au coeur de l'eau Chambres d'hôtes - Chambre avec lit double",
+            "price": "71",
+            "rating": 4
+        },
+        "Hotel-tout-bleu-et-blanc" : {
+            "slug": "Hotel-tout-bleu-et-blanc",
+            "name": "Hôtel Tout bleu et Blanc",
+            "imgUrl": "./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg",
+            "imgAlt": "Hôtel Tout bleu et Blanc - Chambre avec lit double",
+            "price": "68",
+            "rating": 4
+        }
+    },
+    "footers": {
+        "1" : {
+            "name" : "A propos",
+            "elements" : {
+                "1" : {
+                    "description" : "Fonctionnement du site",
+                    "url" : "about/HowToUse"
+                },
+                "2" : {
+                    "description" : "Conditions générales de vente",
+                    "url" : "about/CGU"
+                },
+                "3" : {
+                    "description" : "Données et confidentialités",
+                    "url" : "about/Data-and-Security"
+                }
+            }
+        },
+        "2" : {
+            "name" : "Nos hébergement",
+            "elements" : {
+                "1" : {
+                    "description" : "Charte qualité",
+                    "url" : "about/Quality-chart"
+                },
+                "2" : {
+                    "description" : "Soumettre votre hotel",
+                    "url" : "Submit-a-hotel"
+                }
+            }
+        },
+        "3" : {
+            "name" : "Assitance",
+            "elements" : {
+                "1" : {
+                    "description" : "Centre d'aide",
+                    "url" : "about/Help-center"
+                },
+                "2" : {
+                    "description" : "Nous contacter",
+                    "url" : "contact"
+                }
+            }
+        }
+    },
+    "HowToUse" : {
+        "title" : "Comment utiliser le site ?",
+        "contents" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet nibh suscipit nunc tempor tempus. Nullam diam tellus, sagittis et orci id, interdum sollicitudin ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam malesuada varius ipsum, consectetur luctus felis congue vel. Nam eros mauris, molestie ac odio nec, ullamcorper hendrerit ex. Aliquam lobortis diam orci, ut porta neque gravida quis. Suspendisse sit amet interdum est.",
+            "Donec eu dictum orci. Morbi vulputate vehicula odio, a sodales metus placerat a. Duis in metus vulputate, convallis erat nec, accumsan ante. Maecenas bibendum euismod est sed bibendum. Nunc dolor purus, maximus a pharetra eget, ultricies vel augue. Etiam sagittis nisl et felis hendrerit iaculis. Nulla eleifend non nunc at fringilla. Nunc consectetur scelerisque eros, eu sollicitudin tellus vehicula vel. Ut placerat augue eu ligula volutpat, vel porttitor leo iaculis. Pellentesque dapibus leo sit amet enim consequat, vel finibus ipsum tristique. Donec ac elit egestas, convallis justo quis, blandit turpis. Suspendisse potenti. Pellentesque vel molestie justo. Praesent at sapien condimentum, congue sapien in, porttitor turpis. Proin neque elit, laoreet condimentum elementum at, elementum vitae diam.",            
+            "Aliquam id malesuada lectus. Curabitur pretium tellus et magna placerat tempor. Ut eget lacus ut ligula laoreet efficitur non ac est. Duis urna ex, aliquet at felis rutrum, congue fermentum enim. Quisque ac ex ac nulla gravida ultrices ac sed enim. Fusce mauris turpis, pretium nec tristique sed, vehicula vitae nulla. Phasellus sit amet congue tellus, nec elementum metus. Aenean sit amet risus nisi. Nam fringilla eget diam nec rhoncus. Aliquam finibus vehicula velit. Duis sed odio sit amet nisi porta blandit vitae a nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sed mollis neque. Sed risus dolor, posuere sit amet leo in, tempus mollis libero. Cras luctus non odio in malesuada.",
+            "Sed a mi tempus, convallis ligula vel, facilisis nulla. Nulla ac neque viverra, imperdiet justo eu, elementum erat. Nunc et metus leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis consectetur eget magna dictum posuere. Ut tincidunt lacus semper enim tristique, eget convallis nisi cursus. Aenean vel ex facilisis, dapibus sapien quis, egestas mi. Curabitur commodo urna et nisl feugiat dapibus. Quisque fringilla turpis eget justo tincidunt, quis feugiat felis semper. Ut ornare lacus sem, at euismod urna iaculis vel. Nam malesuada ante tempor enim accumsan, in aliquam massa venenatis. In imperdiet convallis tellus, ut suscipit nisl dignissim eget. Duis et interdum sapien. In porta tellus non mauris dapibus, vitae aliquet velit finibus. Duis velit est, efficitur eu velit eu, viverra convallis turpis. Aliquam finibus orci in urna mattis placerat.",            
+            "Proin a volutpat erat. Phasellus vel dolor id metus ultrices semper eu sed elit. Vestibulum iaculis dui eget mauris dignissim feugiat. Aenean eget metus a magna tristique pulvinar quis quis neque. Mauris eu ultrices felis. Quisque ultrices fermentum placerat. Proin urna dui, porta in felis ac, aliquam malesuada sem."
+        ]
+    },
+    "CGU" : {
+        "title" : "Conditions générales d'utilisation",
+        "contents" : [
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet nibh suscipit nunc tempor tempus. Nullam diam tellus, sagittis et orci id, interdum sollicitudin ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam malesuada varius ipsum, consectetur luctus felis congue vel. Nam eros mauris, molestie ac odio nec, ullamcorper hendrerit ex. Aliquam lobortis diam orci, ut porta neque gravida quis. Suspendisse sit amet interdum est.",
+            "2. Donec eu dictum orci. Morbi vulputate vehicula odio, a sodales metus placerat a. Duis in metus vulputate, convallis erat nec, accumsan ante. Maecenas bibendum euismod est sed bibendum. Nunc dolor purus, maximus a pharetra eget, ultricies vel augue. Etiam sagittis nisl et felis hendrerit iaculis. Nulla eleifend non nunc at fringilla. Nunc consectetur scelerisque eros, eu sollicitudin tellus vehicula vel. Ut placerat augue eu ligula volutpat, vel porttitor leo iaculis. Pellentesque dapibus leo sit amet enim consequat, vel finibus ipsum tristique. Donec ac elit egestas, convallis justo quis, blandit turpis. Suspendisse potenti. Pellentesque vel molestie justo. Praesent at sapien condimentum, congue sapien in, porttitor turpis. Proin neque elit, laoreet condimentum elementum at, elementum vitae diam.",
+            "3. Aliquam id malesuada lectus. Curabitur pretium tellus et magna placerat tempor. Ut eget lacus ut ligula laoreet efficitur non ac est. Duis urna ex, aliquet at felis rutrum, congue fermentum enim. Quisque ac ex ac nulla gravida ultrices ac sed enim. Fusce mauris turpis, pretium nec tristique sed, vehicula vitae nulla. Phasellus sit amet congue tellus, nec elementum metus. Aenean sit amet risus nisi. Nam fringilla eget diam nec rhoncus. Aliquam finibus vehicula velit. Duis sed odio sit amet nisi porta blandit vitae a nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sed mollis neque. Sed risus dolor, posuere sit amet leo in, tempus mollis libero. Cras luctus non odio in malesuada.",
+            "4. Sed a mi tempus, convallis ligula vel, facilisis nulla. Nulla ac neque viverra, imperdiet justo eu, elementum erat. Nunc et metus leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis consectetur eget magna dictum posuere. Ut tincidunt lacus semper enim tristique, eget convallis nisi cursus. Aenean vel ex facilisis, dapibus sapien quis, egestas mi. Curabitur commodo urna et nisl feugiat dapibus. Quisque fringilla turpis eget justo tincidunt, quis feugiat felis semper. Ut ornare lacus sem, at euismod urna iaculis vel. Nam malesuada ante tempor enim accumsan, in aliquam massa venenatis. In imperdiet convallis tellus, ut suscipit nisl dignissim eget. Duis et interdum sapien. In porta tellus non mauris dapibus, vitae aliquet velit finibus. Duis velit est, efficitur eu velit eu, viverra convallis turpis. Aliquam finibus orci in urna mattis placerat.",
+            "5. Proin a volutpat erat. Phasellus vel dolor id metus ultrices semper eu sed elit. Vestibulum iaculis dui eget mauris dignissim feugiat. Aenean eget metus a magna tristique pulvinar quis quis neque. Mauris eu ultrices felis. Quisque ultrices fermentum placerat. Proin urna dui, porta in felis ac, aliquam malesuada sem."
+        ]
+    },
+    "Data-and-Security" : {
+        "title" : "Données et confidentialités",
+        "contents" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet nibh suscipit nunc tempor tempus. Nullam diam tellus, sagittis et orci id, interdum sollicitudin ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam malesuada varius ipsum, consectetur luctus felis congue vel. Nam eros mauris, molestie ac odio nec, ullamcorper hendrerit ex. Aliquam lobortis diam orci, ut porta neque gravida quis. Suspendisse sit amet interdum est.",
+            "Donec eu dictum orci. Morbi vulputate vehicula odio, a sodales metus placerat a. Duis in metus vulputate, convallis erat nec, accumsan ante. Maecenas bibendum euismod est sed bibendum. Nunc dolor purus, maximus a pharetra eget, ultricies vel augue. Etiam sagittis nisl et felis hendrerit iaculis. Nulla eleifend non nunc at fringilla. Nunc consectetur scelerisque eros, eu sollicitudin tellus vehicula vel. Ut placerat augue eu ligula volutpat, vel porttitor leo iaculis. Pellentesque dapibus leo sit amet enim consequat, vel finibus ipsum tristique. Donec ac elit egestas, convallis justo quis, blandit turpis. Suspendisse potenti. Pellentesque vel molestie justo. Praesent at sapien condimentum, congue sapien in, porttitor turpis. Proin neque elit, laoreet condimentum elementum at, elementum vitae diam.",
+            "Aliquam id malesuada lectus. Curabitur pretium tellus et magna placerat tempor. Ut eget lacus ut ligula laoreet efficitur non ac est. Duis urna ex, aliquet at felis rutrum, congue fermentum enim. Quisque ac ex ac nulla gravida ultrices ac sed enim. Fusce mauris turpis, pretium nec tristique sed, vehicula vitae nulla. Phasellus sit amet congue tellus, nec elementum metus. Aenean sit amet risus nisi. Nam fringilla eget diam nec rhoncus. Aliquam finibus vehicula velit. Duis sed odio sit amet nisi porta blandit vitae a nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sed mollis neque. Sed risus dolor, posuere sit amet leo in, tempus mollis libero. Cras luctus non odio in malesuada.",            
+            "Proin a volutpat erat. Phasellus vel dolor id metus ultrices semper eu sed elit. Vestibulum iaculis dui eget mauris dignissim feugiat. Aenean eget metus a magna tristique pulvinar quis quis neque. Mauris eu ultrices felis. Quisque ultrices fermentum placerat. Proin urna dui, porta in felis ac, aliquam malesuada sem."
+        ]
+    },
+    "Quality-chart" : {
+        "title" : "Charte qualité",
+        "contents" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet nibh suscipit nunc tempor tempus. Nullam diam tellus, sagittis et orci id, interdum sollicitudin ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam malesuada varius ipsum, consectetur luctus felis congue vel. Nam eros mauris, molestie ac odio nec, ullamcorper hendrerit ex. Aliquam lobortis diam orci, ut porta neque gravida quis. Suspendisse sit amet interdum est.",
+            "Donec eu dictum orci. Morbi vulputate vehicula odio, a sodales metus placerat a. Duis in metus vulputate, convallis erat nec, accumsan ante. Maecenas bibendum euismod est sed bibendum. Nunc dolor purus, maximus a pharetra eget, ultricies vel augue. Etiam sagittis nisl et felis hendrerit iaculis. Nulla eleifend non nunc at fringilla. Nunc consectetur scelerisque eros, eu sollicitudin tellus vehicula vel. Ut placerat augue eu ligula volutpat, vel porttitor leo iaculis. Pellentesque dapibus leo sit amet enim consequat, vel finibus ipsum tristique. Donec ac elit egestas, convallis justo quis, blandit turpis. Suspendisse potenti. Pellentesque vel molestie justo. Praesent at sapien condimentum, congue sapien in, porttitor turpis. Proin neque elit, laoreet condimentum elementum at, elementum vitae diam.",            
+            "Aliquam id malesuada lectus. Curabitur pretium tellus et magna placerat tempor. Ut eget lacus ut ligula laoreet efficitur non ac est. Duis urna ex, aliquet at felis rutrum, congue fermentum enim. Quisque ac ex ac nulla gravida ultrices ac sed enim. Fusce mauris turpis, pretium nec tristique sed, vehicula vitae nulla. Phasellus sit amet congue tellus, nec elementum metus. Aenean sit amet risus nisi. Nam fringilla eget diam nec rhoncus. Aliquam finibus vehicula velit. Duis sed odio sit amet nisi porta blandit vitae a nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sed mollis neque. Sed risus dolor, posuere sit amet leo in, tempus mollis libero. Cras luctus non odio in malesuada.",            
+            "Proin a volutpat erat. Phasellus vel dolor id metus ultrices semper eu sed elit. Vestibulum iaculis dui eget mauris dignissim feugiat. Aenean eget metus a magna tristique pulvinar quis quis neque. Mauris eu ultrices felis. Quisque ultrices fermentum placerat. Proin urna dui, porta in felis ac, aliquam malesuada sem."
+        ]
+    },
+    "Help-center" : {
+        "title" : "Centre d'aide",
+        "contents" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet nibh suscipit nunc tempor tempus. Nullam diam tellus, sagittis et orci id, interdum sollicitudin ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam malesuada varius ipsum, consectetur luctus felis congue vel. Nam eros mauris, molestie ac odio nec, ullamcorper hendrerit ex. Aliquam lobortis diam orci, ut porta neque gravida quis. Suspendisse sit amet interdum est.",
+            "Donec eu dictum orci. Morbi vulputate vehicula odio, a sodales metus placerat a. Duis in metus vulputate, convallis erat nec, accumsan ante. Maecenas bibendum euismod est sed bibendum. Nunc dolor purus, maximus a pharetra eget, ultricies vel augue. Etiam sagittis nisl et felis hendrerit iaculis. Nulla eleifend non nunc at fringilla. Nunc consectetur scelerisque eros, eu sollicitudin tellus vehicula vel. Ut placerat augue eu ligula volutpat, vel porttitor leo iaculis. Pellentesque dapibus leo sit amet enim consequat, vel finibus ipsum tristique. Donec ac elit egestas, convallis justo quis, blandit turpis. Suspendisse potenti. Pellentesque vel molestie justo. Praesent at sapien condimentum, congue sapien in, porttitor turpis. Proin neque elit, laoreet condimentum elementum at, elementum vitae diam.",
+            "Sed a mi tempus, convallis ligula vel, facilisis nulla. Nulla ac neque viverra, imperdiet justo eu, elementum erat. Nunc et metus leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis consectetur eget magna dictum posuere. Ut tincidunt lacus semper enim tristique, eget convallis nisi cursus. Aenean vel ex facilisis, dapibus sapien quis, egestas mi. Curabitur commodo urna et nisl feugiat dapibus. Quisque fringilla turpis eget justo tincidunt, quis feugiat felis semper. Ut ornare lacus sem, at euismod urna iaculis vel. Nam malesuada ante tempor enim accumsan, in aliquam massa venenatis. In imperdiet convallis tellus, ut suscipit nisl dignissim eget. Duis et interdum sapien. In porta tellus non mauris dapibus, vitae aliquet velit finibus. Duis velit est, efficitur eu velit eu, viverra convallis turpis. Aliquam finibus orci in urna mattis placerat.",
+            "Proin a volutpat erat. Phasellus vel dolor id metus ultrices semper eu sed elit. Vestibulum iaculis dui eget mauris dignissim feugiat. Aenean eget metus a magna tristique pulvinar quis quis neque. Mauris eu ultrices felis. Quisque ultrices fermentum placerat. Proin urna dui, porta in felis ac, aliquam malesuada sem."
+        ]
+    }
+}
