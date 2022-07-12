@@ -25,7 +25,7 @@ const Search = () => {
         </form>
 
           <div className="filters-container">
-            <h3>Filtres</h3>
+            <h2>Filtres</h2>
             <div className="filtersSelection">
 
             {Object.keys(data.filters).map((filter, index) => (

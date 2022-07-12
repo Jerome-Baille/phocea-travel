@@ -25,45 +25,45 @@
             "Vieux-Port": {
                 "slug": "Vieux-Port",
                 "name": "Vieux Port",
-                "imgUrl": "./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg",
-                "imgAlt": "Vieux Port"
+                "imgUrl": "./images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg",
+                "imgAlt": "Des bâteaux dans le vieux port de Marseille"
             },
             "Fort-de-Pomegues": {
                 "slug": "Fort-de-Pomegues",
                 "name": "Fort de Pomègues",
-                "imgUrl": "./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg",
-                "imgAlt": "Fort de Pomègues"
+                "imgUrl": "./images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg",
+                "imgAlt": "Le fort de Pomègues sur l'ile du Frioul"
             },
             "Ile-du-Frioul": {
                 "slug": "Ile-du-Frioul",
                 "name": "Île du Frioul",
-                "imgUrl": "./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg",
-                "imgAlt": "Île du Frioul"
+                "imgUrl": "./images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg",
+                "imgAlt": "L'Île du Frioul au loin avec une jumelle au premier plan"
             },
             "Parc-National-des-Calanques": {
                 "slug": "Parc-National-des-Calanques",
                 "name": "Parc National des Calanques",
-                "imgUrl": "./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg",
-                "imgAlt": "Parc National des Calanques"
+                "imgUrl": "./images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg",
+                "imgAlt": "Les montagnes du parc national des Calanques avec la mer en fond"
             },
             "Notre-Dame-de-la-Garde": {
                 "slug": "Notre-Dame-de-la-Garde",
                 "name": "Notre-Dame-de-la-Garde",
-                "imgUrl": "./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg",
-                "imgAlt": "Notre-Dame-de-la-Garde"
+                "imgUrl": "./images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg",
+                "imgAlt": "Notre-Dame-de-la-Garde au loin avec la ville de Marseille au premier plan"
             },
             "Parc-Longchamp": {
                 "slug": "Parc-Longchamp",
                 "name": "Parc Longchamp",
-                "imgUrl": "./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg",
-                "imgAlt": "Parc Longchamp"
+                "imgUrl": "./images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg",
+                "imgAlt": "Fontaine du parc Longchamp à Marseille"
             }
     },
     "bookings": {
         "Auberge-La-Cannebiere": {
             "slug": "Auberge-La-Cannebiere",
             "name": "Auberge La Cannebière",
-            "imgUrl": "./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
+            "imgUrl": "./images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
             "imgAlt": "Auberge la Cannebière - Chambre avec lit superposé",
             "price": "25",
             "rating": 4
@@ -71,7 +71,7 @@
         "Hotel-du-port": {
             "slug": "Hotel-du-port",
             "name": "Hôtel du port",
-            "imgUrl": "./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg",
+            "imgUrl": "./images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg",
             "imgAlt": "Hôtel du port - Chambre avec deux lits simples",
             "price": "52",
             "rating": 5
@@ -79,7 +79,7 @@
         "Hotel-les-mouettes": {
             "slug": "Hotel-les-mouettes",
             "name": "Hôtel Les mouettes",
-            "imgUrl": "./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg",
+            "imgUrl": "./images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg",
             "imgAlt": "Hôtel Les mouettes - Chambre avec deux lits simples",
             "price": "76",
             "rating": 4
@@ -87,7 +87,7 @@
         "Hotel-de-la-mer": {
             "slug": "Hotel-de-la-mer",
             "name": "Hôtel de la mer",
-            "imgUrl": "./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg",
+            "imgUrl": "./images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg",
             "imgAlt": "Hôtel de la mer - Chambre avec lit double",
             "price": "46",
             "rating": 3
@@ -95,7 +95,7 @@
         "Auberge-le-panier": {
             "slug": "Auberge-le-panier",
             "name": "Auberge Le Panier",
-            "imgUrl": "./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
+            "imgUrl": "./images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
             "imgAlt": "Auberge Le Panier - Chambre avec deux lits superposés",
             "price": "23",
             "rating": 4
@@ -103,7 +103,7 @@
         "Hotel-chez-Amina": {
             "slug": "Hotel-chez-Amina",
             "name": "Hôtel chez Amina",
-            "imgUrl": "./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg",
+            "imgUrl": "./images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg",
             "imgAlt": "Hôtel chez Amina - Chambre avec deux lits doubles",
             "price": "96",
             "rating": 5
@@ -113,7 +113,7 @@
         "Hotel-le-soleil-du-matin" : {
             "slug": "Hotel-le-soleil-du-matin",
             "name": "Hôtel Le soleil du matin",
-            "imgUrl": "./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg",
+            "imgUrl": "./images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg",
             "imgAlt": "Hôtel Le soleil du matin - Chambre avec lit double",
             "price": "128",
             "rating": 5
@@ -121,7 +121,7 @@
         "Au-coeur-de-l-eau-chambres-d-hotes" : {
             "slug": "Au-coeur-de-l-eau-chambres-d-hotes",
             "name": "Au coeur de l'eau Chambres d'hôtes",
-            "imgUrl": "./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg",
+            "imgUrl": "./images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg",
             "imgAlt": "Au coeur de l'eau Chambres d'hôtes - Chambre avec lit double",
             "price": "71",
             "rating": 4
@@ -129,7 +129,7 @@
         "Hotel-tout-bleu-et-blanc" : {
             "slug": "Hotel-tout-bleu-et-blanc",
             "name": "Hôtel Tout bleu et Blanc",
-            "imgUrl": "./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg",
+            "imgUrl": "./images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg",
             "imgAlt": "Hôtel Tout bleu et Blanc - Chambre avec lit double",
             "price": "68",
             "rating": 4

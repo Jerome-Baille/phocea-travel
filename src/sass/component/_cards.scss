@@ -1,19 +1,19 @@
 .activity-card {
-    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 15px rgba(112, 112, 112, 0.25);
     border-radius: 20px;
     overflow: hidden;
 
     &:hover {
-        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+        box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 0.6); 
     }
 }
 
 .hosting-card, .popular-card {
-    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 15px rgba(112, 112, 112, 0.25);
     border-radius: 20px;
     overflow: hidden;
 
     &:hover {
-        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+        box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 0.6); 
     }
 }

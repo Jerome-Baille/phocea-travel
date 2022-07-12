@@ -6,7 +6,9 @@ const Footer = () => {
         <footer>
             {Object.keys(data.footers).map((footer, index) => (
                 <ul key={index} className='footer-list'>
-                    <h3>{data.footers[footer].name}</h3>
+                    <li>
+                        <h3>{data.footers[footer].name}</h3>
+                    </li>
 
                     {Object.keys(data.footers[footer].elements).map((element, index) => (
                         <li key={index}>

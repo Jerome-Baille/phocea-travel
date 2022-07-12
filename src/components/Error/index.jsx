@@ -12,9 +12,9 @@ const Error404 = () => {
                 <h2>Page introuvable</h2>
                 <p>Votre voyage vous a mené vers une destination inconnue. Cliquez sur le bouton ci-dessous pour revenir sur la page d'accueil.</p>
                 
-                <button className='main-btn'>
-                    <Link to="/">Suivez-moi</Link>
-                </button>
+                <div  className="main-btn-container">
+                    <Link to="/" className='main-btn'>Suivez-moi</Link>
+                </div>
 
             </div>
         </section>

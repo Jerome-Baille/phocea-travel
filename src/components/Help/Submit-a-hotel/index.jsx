@@ -7,18 +7,14 @@ const SubmitAHotel = () => {
 
             <div className="contact-form">
                 <form action="">
-                    <label htmlFor="name">
+                    <label htmlFor="name">Nom de l'hôtel :</label>
                         <input type="text" className="form-control" id="name" placeholder="Nom de votre hôtel" />
-                    </label>
-                    <label htmlFor="address">
-                        <input type="text" className="form-control" id="name" placeholder="Adresse de votre hôtel" />
-                    </label>
-                    <label htmlFor="email">
+                    <label htmlFor="address">Adresse de l'hôtel :</label>
+                        <input type="text" className="form-control" id="address" placeholder="Adresse de votre hôtel" />
+                    <label htmlFor="email">E-mail :</label>
                         <input type="email" className="form-control" id="email" placeholder="Votre email" />
-                    </label>
-                    <label htmlFor="message">
+                    <label htmlFor="message">Message :</label>
                         <textarea className="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
-                    </label>
                     <input type="submit" className='main-btn' value="SEND" />
                 </form>
             </div>

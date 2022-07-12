@@ -7,15 +7,12 @@ const ContactForm = () => {
 
             <div className="contact-form">
                 <form action="">
-                    <label htmlFor="name">
+                    <label htmlFor="name">Nom :</label>
                         <input type="text" className="form-control" id="name" placeholder="Votre nom" />
-                    </label>
-                    <label htmlFor="email">
+                    <label htmlFor="email">E-mail:</label>
                         <input type="email" className="form-control" id="email" placeholder="Votre email" />
-                    </label>
-                    <label htmlFor="message">
+                    <label htmlFor="message">Message :</label>
                         <textarea className="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
-                    </label>
                     <input type="submit" className='main-btn' value="SEND" />
                 </form>
             </div>

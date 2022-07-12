@@ -7,13 +7,16 @@
     input[type='email'] {
       width: 100%;
       border: 0;
-      background: $background-color;
+      background: $white;
       height: 50px;
       font-size: 16px;
       color: $primary-color;
       padding: 0 20px;
       box-sizing: border-box;
-      text-transform: capitalize;
+
+      &::first-letter {
+        text-transform: uppercase;
+      }
 
       &::placeholder {
         color: $primary-color;
@@ -23,7 +26,7 @@
     textarea {
       width: 100%;
       border: 0;
-      background: $background-color;
+      background: $white;
       height: 50px;
       font-size: 16px;
       color: $primary-color;
@@ -37,6 +40,7 @@
     }
 
     input, textarea {
+        margin-top: 10px;
         margin-bottom: 2rem;
         border-radius: 8px;
       
@@ -46,7 +50,7 @@
     }
       
     input, textarea {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 15px rgba(112, 112, 112, 0.25);
     }
 
     .main-btn {
@@ -54,7 +58,7 @@
         box-shadow: none;
 
         &:hover {
-            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+          box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 0.6); 
         }
     }
 }
