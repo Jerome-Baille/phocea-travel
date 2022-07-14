@@ -14,10 +14,6 @@
       padding: 0 20px;
       box-sizing: border-box;
 
-      &::first-letter {
-        text-transform: uppercase;
-      }
-
       &::placeholder {
         color: $primary-color;
       }
@@ -41,7 +37,6 @@
 
     input, textarea {
         margin-top: 10px;
-        margin-bottom: 2rem;
         border-radius: 8px;
       
         &:focus {
@@ -51,6 +46,14 @@
       
     input, textarea {
       box-shadow: 0 0 15px rgba(112, 112, 112, 0.25);
+    }
+
+    .form-group {
+      margin-bottom: 2rem;
+
+      p {
+        color: red;
+      }
     }
 
     .main-btn {
